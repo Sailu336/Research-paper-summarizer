@@ -17,7 +17,15 @@ An automated RAG-based (Retrieval-Augmented Generation) pipeline that extracts, 
 
 Clone the repository and install required packages:
 
-```bash
+bash
 git clone [https://github.com/Sailu336/Research-paper-summarizer.git](https://github.com/Sailu336/Research-paper-summarizer.git)
 cd Research-paper-summarizer
 pip install pdfplumber langchain langchain-community langchain-huggingface langchain-google-genai faiss-cpu python-dotenv sentence-transformers
+
+##  Program Output
+
+### 1. Ingestion & RAG Execution
+![Execution Log](./Screenshot%202026-07-29%20.png)
+
+### 2. Structured Summary Output
+![Summary Output](./Screenshot%202026-07-29%20233316.png)
