@@ -1,9 +1,9 @@
-# 📄 Research Paper Summarizer
+#  Research Paper Summarizer
 
 An automated RAG-based (Retrieval-Augmented Generation) pipeline that extracts, indexes, and summarizes academic research papers using **LangChain**, **FAISS**, **HuggingFace Embeddings**, and **Google Gemini**.
 
 
-## 📌 Architecture & Tech Stack
+##  Architecture & Tech Stack
 
 * **PDF Parsing:** `pdfplumber`
 * **Text Chunking:** `RecursiveCharacterTextSplitter`
@@ -11,7 +11,7 @@ An automated RAG-based (Retrieval-Augmented Generation) pipeline that extracts, 
 * **Vector Store:** FAISS (Facebook AI Similarity Search)
 * **LLM Reasoning:** Google Gemini API (`langchain-google-genai`)
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Prerequisites & Installation
 
